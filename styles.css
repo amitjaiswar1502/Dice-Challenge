@@ -1,0 +1,60 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.btn_play{
+  text-align: center;
+  background-color: #4ECCA3;
+  font-family: 'Lobster', cursive;
+  padding : 15px 50px;
+  font-size: 2rem;
+  margin-top: 50px ;
+  color: #393e46;
+}
+
+#circle{
+  position:absolute;
+  transform:translate(-50%,-50%);
+  height:35px;
+  width:35px;
+  border-radius:50%;
+  border:2px solid black;
+}
